@@ -5,7 +5,7 @@ import Form from './components/Form'
 
 
 const API_Key = "45741e928f9af218d91ae12f7286a49e";
-//  http://api.openweathermap.org/data/2.5/weather?q=cairo%2Cegypt&appid=e36ed364400282e43250b6c4c0274d44
+//  https://api.openweathermap.org/data/2.5/weather?q=cairo%2Cegypt&appid=e36ed364400282e43250b6c4c0274d44
 
 class App extends Component{
 
@@ -28,7 +28,7 @@ getWeather = async (e) =>{
   //  console.log(City , Country);
 
 
-   const api = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${City}%2C${Country}&appid=${API_Key}&units=metric`);
+   const api = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${City}%2C${Country}&appid=${API_Key}&units=metric`);
    const data = await api.json();
   //  console.log(data);
 
