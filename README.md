@@ -78,6 +78,7 @@ Otherwise, all links will open in the same tab.
  ## Screenshot
  
 ![Screenshot](./public/weather.png)
+![Screenshot](./public/weather2.png)
 
 
 ## what-i-learned
