@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+# weather-app-api_React-Project_Class-Component
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple weather application built with ReactJs [class-component]. It allows users to get a temperature, humidity, and description for any county just enter the Country name and City name then the app will connect with API and fetch the data. The application uses class components for state management and rendering.
+## Table of contents
 
-## Available Scripts
+- [Overview](#overview)
+- [Features](#Features)
+- [Components](#Components)
+  - [App](#App)
+  - [Form](#Form)
+  - [CourseForm](#CourseForm)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Links](#Links)
+- [Screenshot](#Screenshot)
+- [What I learned](#what-i-learned)
+- [Continued development](#continued-development)
+- [Author](#author)
+- [Acknowledgments](#Acknowledgments)
 
-In the project directory, you can run:
 
-### `npm start`
+## overview
+It's a simple weather app that helps users to get a temperature, humidity, and description of any county by enter the Country name and City name. It serves as an excellent example for those looking to understand and implement React.js concepts in their projects.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
+- it helps you to know tempreature, humidity and description of any county by enter the name of Country and City
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Components
 
-### `npm test`
+### App
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The main component that holds the state and renders the Weather and Form components.
 
-### `npm run build`
+### Weather
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Displays the output of user entries.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Form
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Contains a form to enter country name and city name.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Installation
+To get started with this project, follow these steps:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+you can clone the project or download it as Zip file.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/olahasan/weather-app-api_React-Project_Class-Component
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Navigate to the project directory:
+   cd <project-directory>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Install the required dependencies:
+   npm install   
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage
+To run the application, use the following command:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+npm start
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Links
 
-### Analyzing the Bundle Size
+If you want to open the link in a new tab, you can:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Press **Ctrl** (or **Cmd** on Mac) while clicking the link.
+- Right-click the link and select **Open link in new tab**.
 
-### Making a Progressive Web App
+Otherwise, all links will open in the same tab.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+- Solution URL: [here](https://github.com/olahasan/weather-app-api_React-Project_Class-Component)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Live Site URL: [here](https://weather-app-classes.surge.sh/)
 
-### Deployment
+ ## Screenshot
+ 
+![Screenshot](./public/weather.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## what-i-learned
+Through this project:
+1-I learned  how to create react app and treat with calss component.
+2-how to contact with API
+3-how to deploy it on Surge.sh
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Continued Development
+In the future, I plan to:
+- learn reactJs Hooks and redux.
+
+### Author
+
+GitHub - @olahasan
+
+### Acknowledgments
+
+I would like to thank the **[unique coderz academy](https://www.youtube.com/@UniqueCoderzAcademy)** for providing this challenge and to the community for their support.
+
